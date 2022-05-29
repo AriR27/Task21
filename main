@@ -1,0 +1,9 @@
+public class Kata {
+
+  public static boolean feast(String beast, String dish) {
+    String[] letters = beast.split("");
+    String[] letters1 = dish.split("");
+    return (letters[0]==letters1[0]) && (letters[(letters.length)-1]==letters1[(letters1.length)-1]);
+   } 
+}
+  
